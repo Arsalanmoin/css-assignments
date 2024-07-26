@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.heading{
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 500px;
+    padding: 50px;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.nav-bar{
+    /* display: inline; */
+    background-color: rgb(5, 0, 97);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid tomato;
+    box-shadow: 1px 3px 5px rgb(0, 2, 131);
+}
+
+.sup{
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
+}
+
+.heading-slogen{
+    font-family: "Playwrite BE VLG", cursive;
+    color: rgb(3, 22, 196);
+    font-size: 30px;
+    font-weight: 60px;
+    text-align: center;
+    margin-top: -20px;
+    text-shadow: 1px 1px 3px yellow;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-container{
+    background-color: #fcccbf;
+    width: 350px;
+    box-shadow: 0px 0px 4px 3px #e4a8a8;
+    border-radius: 8px;
+}
+
+.img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.img:hover{
+    scale: 1.8;
+    transition: 3s linear all;
+}
+
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+
+.price{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 10px 0px;
+    display: flex;
+}
+
+.stickthrough{
+    text-decoration: line-through;
+}
+
+.off{
+    color: red;
+    
+}
+
+
+.card-body{
+    padding: 20px;
+}
+.card-btn{
+    background-color: #03b85e;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+    background-color: #017a3d;
+}
+
+.card-img{
+    position:relative;
+}
+
+.tag{
+    background-color: #ff0000;
+    width: 70px;
+    font-size: 13px;
+    text-align: center;
+    padding: 6px 0px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.gallery{
+    font-family: "Bebas Neue", sans-serif; cursive;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    font-weight: 40px;
+    text-align: center;
+    /* margin-top: -20px; */
+    text-shadow: 1px 1px 3px yellow;
+    letter-spacing: 10px;
+}
+
+.slogen-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #44b0ce;
+    font-size: 17px;
+    font-weight: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-btn-1{
+    background-color: #ff8e00;
+    border-radius: 5px;
+    padding: 8px 40px;
+    border: none;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-btn-1:hover{
+    background-color: #cd7101;
+}
+
+.button5{
+    background-color: #cff9ea;
+    border: rgb(255, 0, 0) solid 1px;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+
+
+}
+
+.button5:hover{
+    background-color: #70f6c5;
+
+}
+
+.size{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #017a3d;
+    font-size: 16px;
+   
+}
+
+.size-heading{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    gap: 3px;
+}
+
+.description{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-class
+{
+    padding: 8px;
+}
+
